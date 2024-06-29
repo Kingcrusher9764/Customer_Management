@@ -7,29 +7,39 @@
 - Express.js
 - MongoDB
 
-## Steps to setup env variable:
+## Steps to Setup Environment Variables:
 
-- first create a `.env` varaible in `api` and `UI` folder
-- In `.env` of `api` paste
-  ````MONGO_URI=mongodb://127.0.0.1:27017/customerDB
-   PORT=5000```
-  ````
-- In `.env` of `UI` paste
-  `VITE_API_URL=http://localhost:5000`
+- First, create a `.env` file in both the `api` and `UI` folders.
 
-## Steps to run the program:
+### `.env` for `api`:
 
-- First start a terminal with `api` as root directory in it.
-- Execute `sh npm install` command to install the dependencies of server
-- Then run `sh node server.js` command to start the backend server
+````
+MONGO_URI=mongodb://127.0.0.1:27017/customerDB
+PORT=5000
+````
 
-- Then start another terminal with `UI` as root directory in it.
-- Execute `sh npm install` command to install the dependencies of UI
-- Then run `sh npm run dev` command to start the frontend server
+### `.env` for `UI`:
 
-- When both the server started successfully navigate to `http://localhost:5173` on the browser
+````
+VITE_API_URL=http://localhost:5000
+````
 
-## dependencies
+## Steps to Run the Program:
 
-- Node.js must be installed in your system
-- MongoDB must be installed in your system and make sure that the MongoDB server is running.
+1. **Start Backend Server:**
+    - Open a terminal and navigate to the `api` directory.
+    - Run the command `npm install` to install the server dependencies.
+    - Then run `node server.js` to start the backend server.
+
+2. **Start Frontend Server:**
+    - Open another terminal and navigate to the `UI` directory.
+    - Run the command `npm install` to install the UI dependencies.
+    - Then run `npm run dev` to start the frontend server.
+
+3. **Access the Application:**
+    - When both servers have started successfully, navigate to `http://localhost:5173` in your browser.
+
+## Dependencies
+
+- Node.js must be installed on your system.
+- MongoDB must be installed on your system, and ensure that the MongoDB server is running.
