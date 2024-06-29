@@ -1,0 +1,98 @@
+.container{
+  width: 100%;
+}
+
+.navbar{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EFF8FF;
+  border-bottom: 1px solid gray;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navList{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#query{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navList button{
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #EEC3E6;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* table css section */
+
+.table_section{
+  width: 100%;
+  padding: 2%;
+}
+
+.table_container{
+  width: 100%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: #FFFFFF;
+  overflow-x: auto;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 1;
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+}
+
+.table_head th{
+  text-align: left;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.table_body td{
+  border-top: 1px solid gray;
+  text-align: left;
+  padding: 10px;
+}
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.actions button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #E6F2FF;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.actions button img{
+  width: 20px;
+}
