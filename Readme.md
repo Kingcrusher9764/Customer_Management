@@ -9,8 +9,8 @@ This repository contains two implementations of a Customer Management system:
 
 The repository is organized into two separate folders, each containing one of the implementations:
 
-- `Customer_Management (with HTML, CSS and Javascript)`: Contains the implementation using HTML, CSS, and JavaScript.
-- `Customer_Management (with MERN stack)`: Contains the implementation using the MERN stack.
+- `Customer_management (with HTML, CSS and Javascript)`: Contains the implementation using HTML, CSS, and JavaScript.
+- `Customer_management (with MERN stack)`: Contains the implementation using the MERN stack.
 
 ## Getting Started
 
