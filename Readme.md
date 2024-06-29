@@ -9,26 +9,26 @@ This repository contains two implementations of a Customer Management system:
 
 The repository is organized into two separate folders, each containing one of the implementations:
 
-- `Customer Management (with HTML, CSS and Javascript)`: Contains the implementation using HTML, CSS, and JavaScript.
-- `Customer Management (with MERN stack)`: Contains the implementation using the MERN stack.
+- `Customer_Management (with HTML, CSS and Javascript)`: Contains the implementation using HTML, CSS, and JavaScript.
+- `Customer_Management (with MERN stack)`: Contains the implementation using the MERN stack.
 
 ## Getting Started
 
 ### Frontend-Only Implementation
 
-1. Navigate to the `Customer Management (with HTML, CSS and Javascript)` directory:
+1. Navigate to the `Customer_management (with HTML, CSS and Javascript)` directory:
    
    ```bash
-   cd "Customer Management (with HTML, CSS and Javascript)"
+   cd "Customer_management (with HTML, CSS and Javascript)"
 
 2. Open `index.html` in your browser to view the application.
 
 ### MERN Stack Implementation
 
-1. Navigate to the `Customer Management (with MERN stack)` directory:
+1. Navigate to the `Customer_management (with MERN stack)` directory:
    
    ```bash
-   cd "Customer Management (with MERN stack)"
+   cd "Customer_management (with MERN stack)"
    ```
 2. Read its readme file to learn its implementation.
 
